@@ -1,0 +1,30 @@
+.service-container {
+    border: 1px solid #21768b;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+
+.service h3,
+h5,
+p {
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.service img {
+    width: 278px;
+    border-radius: 10px;
+}
+
+
+.btn button {
+    border-radius: 10px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .service-container img {
+        width: 278px;
+    }
+} */
