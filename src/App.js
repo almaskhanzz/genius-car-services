@@ -16,6 +16,7 @@ import ResetPassword from './Pages/Login/ResetPassword/ResetPassword';
 import Loading from './Pages/Shared/Loading/Loading';
 import AddService from './Pages/AddService/AddService';
 import ManageServices from './Pages/ManageServices/ManageServices';
+import UpdateService from './Pages/UpdateService/UpdateService';
 function App() {
   return (
     <div >
@@ -46,6 +47,11 @@ function App() {
         <Route path="/manage" element={
           <RequireAuth>
             <ManageServices />
+          </RequireAuth>
+        } />
+        <Route path="/manage/update/:id" element={
+          <RequireAuth>
+            <UpdateService />
           </RequireAuth>
         } />
         <Route path='/expert' element={<Expert />} />
